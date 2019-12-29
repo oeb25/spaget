@@ -3,7 +3,7 @@ Straighten out your spaghetti tabs with this simple popup
 
 ## Hoooow?
 
-What is the magic shortcut you ask? Easy, just press `Shift+CMD+L` or `Shift+CTRL+L` and it will appear!
+What is the magic shortcut you ask? Easy, just press `Shift+Cmd+Space` or `Shift+Ctrl+Space` and it will appear!
 
 ## But how do it get it?
 

@@ -17,8 +17,8 @@
   "commands": {
     "_execute_browser_action": {
       "suggested_key": {
-        "default": "Ctrl+Shift+F",
-        "mac": "Ctrl+Shift+L"
+        "default": "Ctrl+Shift+Space",
+        "mac": "Ctrl+Shift+Space"
       },
       "description": "Execute this browser action"
     }
