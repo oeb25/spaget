@@ -1,0 +1,17 @@
+{
+  "name": "spaget",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc --watch",
+    "package": "tsc && zip -r spaget.zip icons manifest.json spaget.js ui.html && zip -r spaget.src.zip icons manifest.json package.json spaget.ts tsconfig.json ui.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^3.7.4",
+    "web-ext-types": "^3.2.1"
+  }
+}

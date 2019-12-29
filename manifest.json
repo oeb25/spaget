@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "Spaget",
+  "version": "1.0",
+
+  "description": "Straighten out your spaghetti tabs with this simple popup.",
+
+  "icons": {
+    "48": "icons/spaget-48.jpg"
+  },
+  "browser_action": {
+    "default_icon": "icons/spaget-48.jpg",
+    "default_title": "Spaget",
+    "default_popup": "ui.html"
+  },
+  "permissions": ["tabs", "activeTab", "storage", "sessions"],
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+F",
+        "mac": "Ctrl+Shift+L"
+      },
+      "description": "Execute this browser action"
+    }
+  }
+}
